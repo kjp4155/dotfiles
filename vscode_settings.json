@@ -1,0 +1,24 @@
+{
+
+    // Code runner 
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++11 -w -O2 $fileName -o A.exe && Get-Content input.txt | ./A.exe ",
+        "python": "cd $dir && python $fileName",
+        //"cpp": "make run_local"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    
+    "editor.parameterHints.enabled": false,
+      "editor.quickSuggestions": false,
+      "editor.suggestOnTriggerCharacters": false,
+      "editor.wordBasedSuggestions": false,
+      "editor.quickSuggestionsDelay": 1000000,
+
+      "editor.renderLineHighlight": "none",
+
+    "editor.fontSize": 22,
+    "terminal.integrated.fontSize": 20
+}
