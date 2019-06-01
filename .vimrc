@@ -38,3 +38,4 @@ command INIT :1,$d|:read ~/Desktop/Dropbox/PS/notes/template.cpp|normal Gk$
 inoremap {<CR>      {<CR>}<ESC>O
 inoremap {<Space>	{<Space><Space>}<Left><Left>
 
+" curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
