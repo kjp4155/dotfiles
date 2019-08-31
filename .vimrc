@@ -27,14 +27,6 @@ let g:gruvbox_invert_selection = '0'
 let g:gruvbox_invert_tabline = '1'
 " Vim command settings for Competitive Programming
 
-command PS2 vsp input.txt|sp output.txt|vert res 30|wa
-command PS set splitright|vsp output.txt|w|sp input.txt|w|vertical resize 30|normal <C-w>w<C-w>w
-command RIO wall|!g++ -O2 -std=c++14 -Wall -lm %:r.cpp && ./a.out < input.txt > output.txt
-command RI  wall|!g++ -O2 -std=c++14 -Wall -lm %:r.cpp && ./a.out < input.txt
-command CP !pbcopy < %:r.cpp
-command INIT :1,$d|:read ~/Desktop/Dropbox/PS/notes/template.cpp|normal Gk$
-
-
 inoremap {<CR>      {<CR>}<ESC>O
 inoremap {<Space>	{<Space><Space>}<Left><Left>
 
