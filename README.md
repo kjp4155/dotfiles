@@ -2,6 +2,9 @@
 
 # Tmux Setting Guide
 
+[tmp](https://github.com/tmux-plugins/tpm)
+[nord theme](https://github.com/arcticicestudio/nord-alacritty)
+
 # VSCode Setting Guide
 
 # Sublime Text Setting Guide
