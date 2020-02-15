@@ -9,6 +9,15 @@
 
 [nord theme](https://github.com/arcticicestudio/nord-alacritty)
 
+## Tmux Truecolor setting on Mac iTerm2
+```
+.tmux.conf:
+set -g default-terminal "xterm-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+.zshrc:
+export TERM="xterm-256color"
+```
+
 # VSCode Setting Guide
 
 # Sublime Text Setting Guide
