@@ -38,7 +38,6 @@ Plug 'vim-airline/vim-airline-themes'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
-set termguicolors
 colorscheme onedark
 " Colorscheme settings
 " hi Normal ctermbg=244
