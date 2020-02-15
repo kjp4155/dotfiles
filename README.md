@@ -1,5 +1,8 @@
 # Vim Setting Guide
 
+[Plugin Manager](https://github.com/junegunn/vim-plug)
+
+
 # Tmux Setting Guide
 
 [tpm](https://github.com/tmux-plugins/tpm)
