@@ -2,7 +2,7 @@
 
 # Tmux Setting Guide
 
-[tmp](https://github.com/tmux-plugins/tpm)
+[tpm](https://github.com/tmux-plugins/tpm)
 
 [nord theme](https://github.com/arcticicestudio/nord-alacritty)
 
