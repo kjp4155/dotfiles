@@ -23,6 +23,7 @@ set autoread
 set smartcase
 set tags=tags
 set updatetime=100
+set relativenumber
 
 
 " Plugins will be downloaded under the specified directory.
