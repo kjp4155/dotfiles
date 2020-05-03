@@ -24,7 +24,6 @@ set smartcase
 set tags=tags
 set updatetime=100
 
-set mouse+=an
 
 " Plugins will be downloaded under the specified directory.
 call plug#begin('~/.vim/plugged')
@@ -46,6 +45,7 @@ let g:airline_theme='onedark'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#tabline#ignore_bufadd_pat = 'nerdtree|tagbar|!'
+let g:polyglot_disabled = ['jsx', 'csv']
 
 " Keymaps
 nmap <C-n> :NERDTreeToggle<CR>
