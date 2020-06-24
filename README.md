@@ -52,3 +52,8 @@ awk -v term_cols="${width:-$(tput cols || echo 80)}" 'BEGIN{
 ```
 
 # Bash Setting Guide
+
+
+# Fuzzy finder
+
+https://github.com/junegunn/fzf#vim-plugin
