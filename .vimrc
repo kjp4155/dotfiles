@@ -31,10 +31,9 @@ call plug#begin('~/.vim/plugged')
 " Declare the list of plugins.
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
-Plug 'preservim/nerdtree'
-Plug 'preservim/nerdcommenter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'junegunn/fzf'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
@@ -49,4 +48,7 @@ let g:airline#extensions#tabline#ignore_bufadd_pat = 'nerdtree|tagbar|!'
 let g:polyglot_disabled = ['jsx', 'csv']
 
 " Keymaps
-nmap <C-n> :NERDTreeToggle<CR>
+inoremap jj <ESC>
+inoremap <C-l> <ESC>
+
+:nnoremap <C-o> :FZF<CR>
