@@ -26,6 +26,16 @@ set -ga terminal-overrides ",*256col*:Tc"
 export TERM="xterm-256color"
 ```
 
+## Tmux Color setting on Linux
+
+```
+.tmux.conf:
+set -g default-terminal "screen-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+.bashrc:
+alias tmux="TERM=screen-256color-bce tmux"
+```
+
 # VSCode Setting Guide
 
 # Sublime Text Setting Guide
