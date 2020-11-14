@@ -36,9 +36,13 @@ set -ga terminal-overrides ",*256col*:Tc"
 alias tmux="TERM=screen-256color-bce tmux"
 ```
 
-# VSCode Setting Guide
+# Bash-it
 
-# Sublime Text Setting Guide
+[bash-it](https://github.com/Bash-it/bash-it)
+
+Use `powerline-multiline` theme.
+
+# VSCode Setting Guide
 
 # Capslock to CTRL Windows 10
 Run Powershell
